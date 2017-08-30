@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
                 Configuration configuration = new Configuration();
                 configuration.locale = locale;
                 getBaseContext().getResources().updateConfiguration(configuration,getBaseContext().getResources().getDisplayMetrics());
-
                 updateUi();
                 /*Intent restart = new Intent(MainActivity.this,MainActivity.class);
                 finish();
